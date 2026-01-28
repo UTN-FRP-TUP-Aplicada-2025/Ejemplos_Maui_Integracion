@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Ejemplo_Maui_Inventario/Ejemplo_Maui_Inventario.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="Ejemplo_WebAPI_Inventario/Ejemplo_WebAPI_Inventario.csproj" />
+</Solution>

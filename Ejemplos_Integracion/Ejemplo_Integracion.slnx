@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="Ejemplo_Inventario/Ejemplo_Inventario.csproj">
-    <Deploy Solution="Debug|*" />
-  </Project>
-  <Project Path="WebAPI_Inventario/WebAPI_Inventario.csproj" />
-</Solution>
