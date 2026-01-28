@@ -18,14 +18,13 @@ public class PersonasService
 
         var query = new
         {
-            query = "{ personas { dni nombre } }" // Ajusta los campos según tu modelo
+            query = "{ personas { dni nombre } }" 
         };
 
         var response = await client.PostAsJsonAsync("", query);
 
         if (response.IsSuccessStatusCode)
         {
-            // GraphQL devuelve los datos dentro de un objeto "data"
             var result = await response.Content.ReadFromJsonAsync<GraphQLResponse>();
             return result?.Data?.Personas ?? new List<Persona>();
         }

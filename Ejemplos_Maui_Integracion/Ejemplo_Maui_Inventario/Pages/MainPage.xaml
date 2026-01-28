@@ -6,7 +6,8 @@
     <ScrollView>
         <VerticalStackLayout Padding="30,0" Spacing="25">
 
-            <CollectionView ItemsSource="{Binding Personas}">
+            <CollectionView ItemsSource="{Binding Personas}" SelectionMode="Single"
+                SelectionChanged="OnMostrarDetallePersonaSelectionChanged">
                 
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
