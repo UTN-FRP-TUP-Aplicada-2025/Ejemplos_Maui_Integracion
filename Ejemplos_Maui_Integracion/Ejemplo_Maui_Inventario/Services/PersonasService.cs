@@ -21,6 +21,7 @@ public class PersonasService
             query = "{ personas { dni nombre } }" 
         };
 
+
         var response = await client.PostAsJsonAsync("", query);
 
         if (response.IsSuccessStatusCode)
@@ -34,5 +35,12 @@ public class PersonasService
 }
 
 // Clases auxiliares
-public class GraphQLResponse { public GraphQLData Data { get; set; } }
-public class GraphQLData { public List<Persona> Personas { get; set; } }
+public class GraphQLResponse 
+{ 
+    public GraphQLData Data { get; set; } 
+}
+public class GraphQLData 
+{ 
+    public List<Persona> Personas { get; set; } 
+
+}

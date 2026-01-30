@@ -1,4 +1,4 @@
-﻿namespace Ejemplo_WebAPI_Inventario.Models;
+﻿namespace Ejemplo_WebAPI_Inventario.Data.Types;
 
 public class Inventario
 {

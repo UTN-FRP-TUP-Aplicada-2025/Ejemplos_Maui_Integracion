@@ -8,23 +8,31 @@ public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
-        var builder = MauiApp.CreateBuilder();
-        builder
+        var builder = MauiApp.CreateBuilder()
             .UseMauiApp<App>()
-            .RegisterAppServices()
+            .AddAppServices()
             .ConfigureFonts(fonts =>
             {
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
 
+        /*
+         * .Services.AddHttpClient("GraphQLClient", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:7233/graphql/");
+            })
+            .Services.AddSingleton<PersonasService>();
+         */
+
 #if DEBUG
-		builder.Logging.AddDebug();
+        builder.Logging.AddDebug();
 #endif
         return builder.Build();
     }
 
-    private static MauiAppBuilder RegisterAppServices(this MauiAppBuilder builder)
+    //Métodos de Extensión (Extension Methods)
+    private static MauiAppBuilder AddAppServices(this MauiAppBuilder builder)
     {
         builder.Services.AddHttpClient("GraphQLClient", client =>
         {

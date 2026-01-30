@@ -1,6 +1,16 @@
 <Solution>
-  <Project Path="Ejemplo_Maui_Inventario/Ejemplo_Maui_Inventario.csproj">
-    <Deploy Solution="Debug|*" />
-  </Project>
-  <Project Path="Ejemplo_WebAPI_Inventario/Ejemplo_WebAPI_Inventario.csproj" />
+  <Folder Name="/IdentidadQR/">
+    <Project Path="Ejemplo_Maui_IdentidadQR/Ejemplo_Maui_IdentidadQR.csproj" Id="9c78c79c-0621-459b-88cd-28ed730d0594" />
+    <Project Path="Ejemplo_WebAPI_IdentidadQR/Ejemplo_WebAPI_IdentidadQR.csproj" Id="47ab8906-3df6-43bf-9c4c-6bf14f5c92dc" />
+  </Folder>
+  <Folder Name="/IdentidadQR/Docs/">
+    <File Path="Ejemplo_Docs_IdentidadQR/Readme.md" />
+  </Folder>
+  <Folder Name="/Inventario/">
+    <Project Path="Ejemplo_Maui_Inventario/Ejemplo_Maui_Inventario.csproj">
+      <Deploy Solution="Debug|*" />
+    </Project>
+    <Project Path="Ejemplo_WebAPI_Inventario/Ejemplo_WebAPI_Inventario.csproj" />
+  </Folder>
+  <Folder Name="/Inventario/Docs/" />
 </Solution>

@@ -1,14 +1,12 @@
-using Ejemplo_WebAPI_Inventario.Data.Mutations;
 using Ejemplo_WebAPI_Inventario.Data.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddGraphQLServer()
-                .AddQueryType<Query>()
-                .AddMutationType<Mutation>();
+                .AddQueryType<Query>();
 
 var app = builder.Build();
 
-app.MapGraphQL(); 
+app.MapGraphQL();
 
 app.Run();
