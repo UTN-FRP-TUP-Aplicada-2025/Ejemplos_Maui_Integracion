@@ -1,7 +1,7 @@
 ﻿
 
 
-Caso de uso - validar identidad
+## Aplicacion MAUI: Caso de uso - validar identidad
 
 1- Leer un el QR - es un dni.
 2- Consulta la webapi - espera el detalle de la identidad

@@ -1,6 +1,6 @@
 ﻿using Ejemplo_WebAPI_IdentidadQR.Data.Types;
 
-namespace Ejemplo_WebAPI_Inventario.Models;
+namespace Ejemplo_WebAPI_IdentidadQR.Data;
 
 public static class BancoDeDatos
 {

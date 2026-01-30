@@ -1,4 +1,4 @@
-﻿using Ejemplo_WebAPI_Inventario.Data.Types;
+﻿using Ejemplo_WebAPI_Inventario.GraphQL.Types;
 
 namespace Ejemplo_WebAPI_Inventario.Data;
 

@@ -1,6 +1,7 @@
-﻿using Ejemplo_WebAPI_Inventario.Data.Types;
+﻿using Ejemplo_WebAPI_Inventario.Data;
+using Ejemplo_WebAPI_Inventario.GraphQL.Types;
 
-namespace Ejemplo_WebAPI_Inventario.Data.Mutations;
+namespace Ejemplo_WebAPI_Inventario.GraphQL.Mutations;
 
 public class Mutation
 {

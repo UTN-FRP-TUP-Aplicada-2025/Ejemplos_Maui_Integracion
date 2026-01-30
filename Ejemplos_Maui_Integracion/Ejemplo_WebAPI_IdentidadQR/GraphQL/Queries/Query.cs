@@ -1,5 +1,5 @@
-﻿using Ejemplo_WebAPI_IdentidadQR.Data.Types;
-using Ejemplo_WebAPI_Inventario.Models;
+﻿using Ejemplo_WebAPI_IdentidadQR.Data;
+using Ejemplo_WebAPI_IdentidadQR.Data.Types;
 
 namespace Ejemplo_WebAPI_Inventario.Data.Queries;
 

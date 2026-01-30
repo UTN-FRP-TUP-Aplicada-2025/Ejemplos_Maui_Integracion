@@ -1,4 +1,4 @@
-﻿namespace Ejemplo_WebAPI_Inventario.Data.Types;
+﻿namespace Ejemplo_WebAPI_Inventario.GraphQL.Types;
 
 public class Inventario
 {

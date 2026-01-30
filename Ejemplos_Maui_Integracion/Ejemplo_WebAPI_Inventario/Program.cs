@@ -1,5 +1,5 @@
-using Ejemplo_WebAPI_Inventario.Data.Mutations;
-using Ejemplo_WebAPI_Inventario.Data.Queries;
+using Ejemplo_WebAPI_Inventario.GraphQL.Mutations;
+using Ejemplo_WebAPI_Inventario.GraphQL.Queries;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,4 +11,4 @@ var app = builder.Build();
 
 app.MapGraphQL(); 
 
-app.Run();
+await app.RunAsync();
