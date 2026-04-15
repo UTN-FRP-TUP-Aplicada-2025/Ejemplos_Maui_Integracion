@@ -9,10 +9,10 @@
     <File Path="Ejemplo_Docs_IdentidadQR/Readme.md" />
   </Folder>
   <Folder Name="/Inventario/">
-    <Project Path="Ejemplo_Maui_Inventario/Ejemplo_Maui_Inventario.csproj">
+    <Project Path="Iventario/Ejemplo_Maui_Inventario/Ejemplo_Maui_Inventario.csproj">
       <Deploy Solution="Debug|*" />
     </Project>
-    <Project Path="Ejemplo_WebAPI_Inventario/Ejemplo_WebAPI_Inventario.csproj" />
+    <Project Path="/Identidad/Ejemplo_WebAPI_Inventario/Ejemplo_WebAPI_Inventario.csproj" />
   </Folder>
   <Folder Name="/Inventario/Docs/">
     <File Path="Ejemplo_Docs_Inventario/Readme.md" />
